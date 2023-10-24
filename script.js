@@ -43,7 +43,7 @@ function calcularSalarioLiquido(salarioBruto) {
     return salarioLiquido.toFixed(2);
 }
 
-// module.exports = {calcularINSS, calcularIRPF, calcularSalarioLiquido}
+module.exports = { calcularINSS, calcularIRPF, calcularSalarioLiquido }
 
 
 document.getElementById('calcularINSS').addEventListener('click', function () {
